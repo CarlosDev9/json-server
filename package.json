@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-      "start": "npx json-server --watch src/data/db.json --port $PORT --host 0.0.0.0"
+      "start": "npm run json-server",
+       "json-server": "json-server --watch src/data/db.json --port $PORT --host 0.0.0.0"
   },
   "dependencies": {
     "json-server": "^0.17.1"
