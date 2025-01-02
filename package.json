@@ -2,13 +2,12 @@
   "name": "json-server",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-      "start": "npm run json-server",
-       "json-server": "json-server --watch src/data/db.json --port $PORT --host 0.0.0.0"
-  },
+"scripts": {
+  "start": "npx json-server --watch src/data/db.json --port 3000 --host 0.0.0.0"
+},
   "dependencies": {
     "json-server": "^0.17.1"
   },
-  "author": "",
+  "author": "git",
   "license": "ISC"
 }
